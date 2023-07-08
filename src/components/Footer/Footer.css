@@ -1,0 +1,21 @@
+.footer {
+    background: #03254C;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo {
+    margin-bottom: 10px;
+  }
+  
+  .logo img {
+    height: 100px;
+    width: auto;
+  }
