@@ -1,51 +1,17 @@
 import React from 'react';
-import { Link } from 'react-scroll';
-import logo from '../../assets/images/logos/logo-no-background-title-only.png';
 import './Navbar.css';
+import logo from '../../assets/images/logos/logo-no-background-title-only.png';
 
 const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <Link
-          to="home"
-          smooth={true}
-          duration={500}
-        >
-          <img src={logo} alt="House Cleaning Prime" className="logo-icon" />
-        </Link>
+        <img src={logo} alt="Logo" />
       </div>
-      <div className="navbar-menu">
-        <ul>
-          <li>
-            <Link
-              to="home"
-              smooth={true}
-              duration={500}
-            >
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="services"
-              smooth={true}
-              duration={500}
-            >
-              Services
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="about"
-              smooth={true}
-              duration={500}
-            >
-              About Us
-            </Link>
-          </li>
-        </ul>
-      </div>
+      <ul className="navbar-menu">
+        <li className="menu-item">Services</li>
+        <li className="menu-item">About Us</li>
+      </ul>
     </nav>
   );
 };
