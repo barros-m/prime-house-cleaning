@@ -1,14 +1,18 @@
 import React from 'react';
 import './Hero.css';
-import cleaningImage from '../../assets/images/cleaning-image.jpg';
+import cleaningImage from '../../assets/images/cleaning-crew.jpg';
+
 
 const Hero = () => {
   return (
     <section className="hero">
-      <div className="hero-image" style={{ backgroundImage: `url(${cleaningImage})` }}></div>
       <div className="hero-content">
-        <h1 className="slogan">Your Sparkling Clean Home Awaits</h1>
-        <button className="cta-button">Get Started</button>
+        <h1 className="slogan">Too busy to clean?<br/>We can do it for you.</h1>
+        <p className="subtitle">Weekly | Bi-weekly | Monthly | One-Time Cleaning Services</p>
+        <button className="cta-button">Email Us</button>
+      </div>
+      <div className="hero-image">
+        <img src={cleaningImage} alt="Cleaning" />
       </div>
     </section>
   );

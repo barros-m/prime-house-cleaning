@@ -1,6 +1,9 @@
+import AboutMe from "./components/AboutMe/AboutMe";
 import Footer from "./components/Footer/Footer";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
+import OurServices from "./components/OurServices/OurServices";
+import './assets/fonts/fonts.css';
 
 function App() {
     // Get cleaning images from here:  https://unsplash.com/s/photos/cleaning
@@ -9,6 +12,8 @@ function App() {
         <div className="App">
             <Navbar/>
             <Hero />
+            <AboutMe/>
+            <OurServices/>
             <Footer />
         </div>
     );
