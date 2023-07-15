@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between;
   background-color: #ffffff;
-  padding: 80px 20px;
+  padding: 0px 20px;
   margin: 0 auto;
   max-width: 1440px;
 }
@@ -22,6 +22,7 @@
   font-weight: bold;
   text-align: center;
   margin-bottom: 10px;
+  margin-top: 0px !important;
   color: #064996;
 }
 
@@ -69,7 +70,7 @@
 @media (min-width: 769px) and (max-width: 1024px) {
   .hero {
     flex-direction: column;
-    padding: 60px 10px;
+    padding: 20px 10px;
   }
 
   .hero-content {
@@ -78,7 +79,8 @@
   }
 
   .slogan {
-    font-size: 48px;
+    font-size: 65px;
+    margin-top: 0px !important;
   }
 
   .subtitle {
@@ -86,7 +88,7 @@
   }
 
   .button-group {
-    width: 100%;
+    width: 50%;
   }
 
   .hero-image img {
@@ -100,7 +102,7 @@
 @media (max-width: 768px) {
   .hero {
     flex-direction: column;
-    padding: 40px 10px;
+    padding: 0px 10px;
   }
 
   .hero-content {
@@ -110,6 +112,7 @@
 
   .slogan {
     font-size: 36px;
+    margin-top: 0px !important;
   }
 
   .subtitle {
