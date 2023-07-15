@@ -33,7 +33,7 @@
 }
 
 .cta-button {
-  padding: 10px 20px;
+  padding: 10px 30px;
   font-size: 18px;
   font-weight: bold;
   background-color: #FFA500;
@@ -42,6 +42,11 @@
   border-radius: 50px;
   cursor: pointer;
   transition: background-color 0.5s ease;
+}
+
+.button-group {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .cta-button:hover {

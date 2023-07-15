@@ -9,7 +9,10 @@ const Hero = () => {
       <div className="hero-content">
         <h1 className="slogan">Too busy to clean?<br/>We can do it for you.</h1>
         <p className="subtitle">Weekly | Bi-weekly | Monthly | One-Time Cleaning Services</p>
-        <button className="cta-button">Email Us</button>
+        <div className='button-group'>
+          <button className="cta-button">Email Us</button>
+        </div>
+        
       </div>
       <div className="hero-image">
         <img src={cleaningImage} alt="Cleaning" />
