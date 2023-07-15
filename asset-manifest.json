@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/prime-house-cleaning/static/css/main.698d7920.css",
+    "main.js": "/prime-house-cleaning/static/js/main.9db90ba0.js",
+    "static/media/cleaning-crew-2.jpg": "/prime-house-cleaning/static/media/cleaning-crew-2.2f8603b4079ea9438865.jpg",
+    "static/media/moving.jpg": "/prime-house-cleaning/static/media/moving.e17e638062bde58d0ee4.jpg",
+    "static/media/Inter-VariableFont_slnt.ttf": "/prime-house-cleaning/static/media/Inter-VariableFont_slnt.aadb65ac45347ff46699.ttf",
+    "static/media/kitchen.jpg": "/prime-house-cleaning/static/media/kitchen.71c50d356d3b0a5dfee4.jpg",
+    "static/media/cleaning-crew.jpg": "/prime-house-cleaning/static/media/cleaning-crew.ebcf4d715b61abfe7e79.jpg",
+    "static/media/PlayfairDisplay-VariableFont_wght.ttf": "/prime-house-cleaning/static/media/PlayfairDisplay-VariableFont_wght.3f7c141215e6d22d0f1e.ttf",
+    "static/media/logo-no-background-title-only.png": "/prime-house-cleaning/static/media/logo-no-background-title-only.2d3c359fb90a85ab179f.png",
+    "index.html": "/prime-house-cleaning/index.html",
+    "main.698d7920.css.map": "/prime-house-cleaning/static/css/main.698d7920.css.map",
+    "main.9db90ba0.js.map": "/prime-house-cleaning/static/js/main.9db90ba0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.698d7920.css",
+    "static/js/main.9db90ba0.js"
+  ]
+}
