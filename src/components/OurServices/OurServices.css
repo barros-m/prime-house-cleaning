@@ -1,3 +1,4 @@
+/* Existing CSS */
 .our-services {
   margin: auto;
   max-width: 900px;
@@ -31,7 +32,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-left: 20px;
+  padding: 0 20px; /* Changed to padding */
 }
 
 .service-details {
@@ -44,6 +45,8 @@
   padding: 15px;
   border-radius: 8px;
   transition: transform 0.3s ease;
+  margin-bottom: 10px; /* Add a bottom margin to service blocks */
+  width: 100%; /* Ensures all service blocks take full width on mobile */
 }
 
 #hire-us {
@@ -77,3 +80,34 @@ p {
   font-size: 16px;
   color: #666666;
 }
+
+/* Mobile */
+@media (max-width: 768px) {
+  .service {
+    flex-direction: column;
+  }
+
+  .service-image {
+    margin-bottom: 15px;
+    order: 1; /* Changes the order to 1 to push it above the text */
+  }
+
+  .service-group {
+    padding: 0 15px;
+    order: 2; /* Changes the order to 2 to push it below the image */
+  }
+
+  #hire-us {
+    padding: 20px;
+    order: 2; /* Changes the order to 2 to push it below the image */
+  }
+
+  #hire-us h2 {
+    text-align: center;
+  }
+
+  .service-details {
+    text-align: left;
+  }
+}
+

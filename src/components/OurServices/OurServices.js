@@ -40,7 +40,7 @@ const OurServices = () => {
           </div>
         </div>
         <div className="service">
-        <div className="service-image">
+          <div className="service-image">
             <img src={cleaningImage1} alt="Kitchen Cleaning" />
           </div>
           <div className="service-group">
