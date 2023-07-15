@@ -12,12 +12,10 @@ const OurServices = () => {
           <div className="service-image">
             <img src={cleaningImage3} alt="General Cleaning" />
           </div>
-          <div className="service-group">
+          <div className="service-group" id="hire-us">
             <h2>Why hire us?</h2>
             <p>
-              Personalized Service, Impeccable Attention to Detail, and Unmatched Dedication. Benefit from the expertise
-              and commitment of our cleaning specialist, providing exceptional results and a customized experience 
-              tailored to your needs.
+            Why compromise on cleanliness? With House Cleaning Prime, you can trust in the expertise of our experienced professional cleaner. From meticulous move-in and move-out cleaning to post-party cleanup, we handle it all with precision and care. Enjoy the convenience of a clean home without the hassle. Discover the exceptional service of House Cleaning Prime today!
             </p>
           </div>
         </div>

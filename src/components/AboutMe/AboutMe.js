@@ -8,10 +8,7 @@ const AboutMe = () => {
                 <div className="about-content">
                     <div className='block-title'>About Us</div>
                     <p>
-                    At House Cleaning Prime, we understand that life can get busy. That's why we're here to help! Too busy to clean? We can do it for you. 
-                    Our professional cleaning services are designed to take the stress out of maintaining a clean and tidy home. With our team of experienced 
-                    cleaners, state-of-the-art equipment, and attention to detail, we'll ensure that your home sparkles and shines. Sit back, relax, and let 
-                    us handle the cleaning while you focus on what matters most to you. Discover the convenience and quality of House Cleaning Prime today!
+                    At House Cleaning Prime, we understand that your time is valuable. With our dedicated cleaning professional, we offer a personalized and detailed approach to meet your cleaning needs. Our expertise and meticulous attention to detail ensure that your home is spotless and welcoming, giving you the freedom to focus on what matters most.
                     </p>
                 </div>
                 <div className="contact-info">
