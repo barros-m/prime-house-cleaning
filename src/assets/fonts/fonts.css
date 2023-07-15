@@ -1,6 +1,12 @@
 @font-face {
-    font-family: 'Inter';
-    src: url('./Inter-VariableFont_slnt.ttf') format('truetype');
-    /* You can define other font weights and styles here */
-  }
+  font-family: 'Inter';
+  src: url('./Inter-VariableFont_slnt.ttf') format('truetype');
+  /* You can define other font weights and styles here */
+}
+
+@font-face {
+  font-family: 'PlayFair';
+  src: url('./PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+  /* You can define other font weights and styles here */
+}
   
