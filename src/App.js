@@ -20,8 +20,13 @@ function App() {
         <div className="App">
             <Navbar/>
             <Hero />
-            <AboutMe/>
-            <OurServices/>
+            <div id="about-us">
+                <AboutMe/>
+            </div>
+            <div id="our-services">
+                <OurServices/>
+            </div>
+            
             <Footer />
             <button className="whatsapp-button" onClick={handleWhatsAppClick}>
                 <FaWhatsapp />
