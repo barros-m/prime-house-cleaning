@@ -2,7 +2,6 @@ import React from 'react';
 import './Hero.css';
 import cleaningImage from '../../assets/images/cleaning-crew.jpg';
 
-
 const Hero = () => {
   const phoneNumber = '555-555-5555';
 
@@ -18,7 +17,6 @@ const Hero = () => {
         <div className='button-group'>
           <button className="cta-button" onClick={handleCallButtonClick}>Call Us</button>
         </div>
-        
       </div>
       <div className="hero-image">
         <img src={cleaningImage} alt="Cleaning" />

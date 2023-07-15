@@ -64,3 +64,63 @@
   max-height: 100%;
   object-fit: cover;
 }
+
+/* iPad */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .hero {
+    flex-direction: column;
+    padding: 60px 10px;
+  }
+
+  .hero-content {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .slogan {
+    font-size: 48px;
+  }
+
+  .subtitle {
+    margin-bottom: 50px;
+  }
+
+  .button-group {
+    width: 100%;
+  }
+
+  .hero-image img {
+    width: 100%;
+  }
+}
+
+
+
+/* Mobile */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    padding: 40px 10px;
+  }
+
+  .hero-content {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .slogan {
+    font-size: 36px;
+  }
+
+  .subtitle {
+    margin-bottom: 30px;
+  }
+
+  .button-group {
+    width: 100%;
+  }
+
+  .hero-image img {
+    width: 100%;
+  }
+}
