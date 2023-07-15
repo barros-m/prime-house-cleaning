@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../assets/images/logos/logo-no-background-title-only.png';
+import logo from '../../assets/images/logos/logo-white.png';
 import './Footer.css'; // Import the CSS file
 
 const Footer = () => {
