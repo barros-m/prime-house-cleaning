@@ -40,3 +40,11 @@ code {
   height: 30px;
   fill: #fff;
 }
+
+/* Mobile */
+@media (max-width: 768px) {
+  .whatsapp-button {
+    bottom: 20px;
+    right: 20px;
+  }
+}
