@@ -7,6 +7,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding-top: 50px;
 }
 
 .service {
@@ -18,7 +19,6 @@
 
 .service-image {
   flex: 0 0 40%;
-  max-width: 300px;
 }
 
 .service-image img {
@@ -36,12 +36,29 @@
 
 .service-details {
   margin-bottom: 20px;
+  text-align: center;
+}
+
+.service-block {
+  background-color: #f7f7f7;
+  padding: 15px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.service-block:hover {
+  transform: scale(1.05);
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 34px;
   font-weight: bold;
   margin-bottom: 10px;
+  font-family: 'PlayFair', sans-serif;
+}
+
+.b-20 {
+  margin-bottom: 20px;
 }
 
 h3 {
