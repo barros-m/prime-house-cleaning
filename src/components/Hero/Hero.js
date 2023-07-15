@@ -3,7 +3,7 @@ import './Hero.css';
 import cleaningImage from '../../assets/images/cleaning-crew.jpg';
 
 const Hero = () => {
-  const phoneNumber = '555-555-5555';
+  const phoneNumber = '561-674-6458';
 
   const handleCallButtonClick = () => {
     window.location.href = `tel:${phoneNumber}`;

@@ -2,6 +2,12 @@ import React from 'react';
 import './AboutMe.css';
 
 const AboutMe = () => {
+    const phoneNumber = '561-674-6458';
+
+    const handleCallButtonClick = () => {
+        window.location.href = `tel:${phoneNumber}`;
+    };
+
     return (
         <section className="about-me">
             <div class="section-content">
@@ -15,7 +21,7 @@ const AboutMe = () => {
                     <div className='block-title'>Contact Information</div>
                     <p><strong>Name:</strong> Silvana</p>
                     <p><strong>Languages:</strong> Portuguese, English, Spanish</p>
-                    <p><strong>Phone Number:</strong> +1 (561) 674-6458</p>
+                    <p onClick={handleCallButtonClick}><strong>Phone Number:</strong> +1 (561) 674-6458</p>
                 </div>
             </div>
         </section>
