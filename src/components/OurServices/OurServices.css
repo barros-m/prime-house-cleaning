@@ -1,7 +1,7 @@
 /* Existing CSS */
 .our-services {
   margin: auto;
-  max-width: 900px;
+  max-width: 990px;
 }
 
 .our-service-content {
@@ -9,22 +9,25 @@
   flex-wrap: wrap;
   justify-content: center;
   padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .service {
   display: flex;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   width: 100%;
 }
-
-.service-image {
-  flex: 0 0 40%;
-}
+ 
 
 .service-image img {
   width: 100%;
   height: auto;
+}
+
+.service-image {
+  flex: 0 0 50%;
 }
 
 .service-group {
@@ -32,8 +35,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 0 20px; /* Changed to padding */
+  padding-left: 20px; /* Adjust the left padding */
 }
+
 
 .service-details {
   margin-bottom: 20px;
@@ -46,7 +50,7 @@
   border-radius: 8px;
   transition: transform 0.3s ease;
   margin-bottom: 10px; /* Add a bottom margin to service blocks */
-  width: 100%; /* Ensures all service blocks take full width on mobile */
+  width: 90%; /* Ensures all service blocks take full width on mobile */
 }
 
 #hire-us {
@@ -67,7 +71,7 @@ h2 {
 }
 
 .b-20 {
-  margin-bottom: 20px;
+  margin-bottom: 30px !important;
 }
 
 h3 {
@@ -83,23 +87,33 @@ p {
 
 /* Mobile */
 @media (max-width: 768px) {
+  .our-service-content {
+    padding: 0px 15px; /* Add padding to .our-service-content */
+    box-sizing: border-box; /* Ensure padding doesn't increase total width */
+  }
+
   .service {
     flex-direction: column;
+    width: 100%; /* Set width to 100% for .service */
   }
 
   .service-image {
-    margin-bottom: 15px;
-    order: 1; /* Changes the order to 1 to push it above the text */
+    margin-bottom: 0px;
+    order: 1;
+    width: 100%; /* Set width to 100% for .service-image */
   }
 
   .service-group {
-    padding: 0 15px;
-    order: 2; /* Changes the order to 2 to push it below the image */
+    box-sizing: border-box;
+    padding: 0; /* Remove padding from .service-group */
+    order: 2;
+    width: 100%; /* Set width to 100% for .service-group */
   }
 
   #hire-us {
-    padding: 20px;
-    order: 2; /* Changes the order to 2 to push it below the image */
+    padding: 0px 20px;
+    order: 2;
+    width: 100%; /* Set width to 100% for #hire-us */
   }
 
   #hire-us h2 {
@@ -108,6 +122,23 @@ p {
 
   .service-details {
     text-align: left;
+    width: 100%; /* Set width to 100% for .service-details */
+    display: flex; /* Add flex display */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+
+  .service-block {
+    padding: 10px;
+    max-width: 90%; /* Set width to 100% for .service-block */
+  }
+
+  .b-20 {
+    margin-top: 50px !important;
   }
 }
+
+
+
+
 
