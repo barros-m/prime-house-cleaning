@@ -6,7 +6,7 @@ const AboutMe = () => {
         <section className="about-me">
             <div class="section-content">
                 <div className="about-content">
-                    <h2>About Us</h2>
+                    <div className='block-title'>About Us</div>
                     <p>
                     At House Cleaning Prime, we understand that life can get busy. That's why we're here to help! Too busy to clean? We can do it for you. 
                     Our professional cleaning services are designed to take the stress out of maintaining a clean and tidy home. With our team of experienced 
@@ -15,10 +15,10 @@ const AboutMe = () => {
                     </p>
                 </div>
                 <div className="contact-info">
-                <h2>Contact Information</h2>
-                <p><strong>Name:</strong> Silvana</p>
-                <p><strong>Languages:</strong> Portuguese, English, Spanish</p>
-                <p><strong>Phone Number:</strong> +1 (561) 674-6458</p>
+                    <div className='block-title'>Contact Information</div>
+                    <p><strong>Name:</strong> Silvana</p>
+                    <p><strong>Languages:</strong> Portuguese, English, Spanish</p>
+                    <p><strong>Phone Number:</strong> +1 (561) 674-6458</p>
                 </div>
             </div>
         </section>
