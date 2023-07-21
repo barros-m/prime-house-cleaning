@@ -19,10 +19,10 @@ const AboutMe = () => {
                 </div>
                 <div className="contact-info">
                     <div className='block-title'>Contact Information</div>
-                    <p><strong>Name:</strong> Silvana</p>
                     <p><strong>Languages:</strong> Portuguese, English, Spanish</p>
-                    <p onClick={handleCallButtonClick}><strong>Phone Number:</strong> +1 (561) 674-6458</p>
+                    <p onClick={handleCallButtonClick}><strong>Phone Number:</strong>+1 (561) 674-6458<span style={{marginLeft: '15px', color: 'red'}}>Free Estimate</span></p>
                 </div>
+
             </div>
         </section>
     );

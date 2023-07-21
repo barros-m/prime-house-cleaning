@@ -33,6 +33,10 @@ p {
   color: #03254C !important;
 }
 
+.free-estimate {
+  color: red !important;
+}
+
 /* Mobile */
 @media (max-width: 768px) {
   .block-title {
