@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/prime-house-cleaning/static/css/main.39803d91.css",
-    "main.js": "/prime-house-cleaning/static/js/main.cf5976b6.js",
-    "static/media/cleaning-crew-2.jpg": "/prime-house-cleaning/static/media/cleaning-crew-2.2f8603b4079ea9438865.jpg",
-    "static/media/moving.jpg": "/prime-house-cleaning/static/media/moving.e17e638062bde58d0ee4.jpg",
-    "static/media/Inter-VariableFont_slnt.ttf": "/prime-house-cleaning/static/media/Inter-VariableFont_slnt.aadb65ac45347ff46699.ttf",
-    "static/media/kitchen.jpg": "/prime-house-cleaning/static/media/kitchen.71c50d356d3b0a5dfee4.jpg",
-    "static/media/cleaning-crew.jpg": "/prime-house-cleaning/static/media/cleaning-crew.ebcf4d715b61abfe7e79.jpg",
-    "static/media/PlayfairDisplay-VariableFont_wght.ttf": "/prime-house-cleaning/static/media/PlayfairDisplay-VariableFont_wght.3f7c141215e6d22d0f1e.ttf",
-    "static/media/logo-no-background-title-only.png": "/prime-house-cleaning/static/media/logo-no-background-title-only.2d3c359fb90a85ab179f.png",
-    "static/media/logo-white.png": "/prime-house-cleaning/static/media/logo-white.84c6ee7e63fe070a90d1.png",
-    "index.html": "/prime-house-cleaning/index.html",
-    "main.39803d91.css.map": "/prime-house-cleaning/static/css/main.39803d91.css.map",
-    "main.cf5976b6.js.map": "/prime-house-cleaning/static/js/main.cf5976b6.js.map"
+    "main.css": "/static/css/main.052b295c.css",
+    "main.js": "/static/js/main.5eae01b5.js",
+    "static/media/cleaning-crew-2.jpg": "/static/media/cleaning-crew-2.2f8603b4079ea9438865.jpg",
+    "static/media/moving.jpg": "/static/media/moving.e17e638062bde58d0ee4.jpg",
+    "static/media/Inter-VariableFont_slnt.ttf": "/static/media/Inter-VariableFont_slnt.aadb65ac45347ff46699.ttf",
+    "static/media/kitchen.jpg": "/static/media/kitchen.71c50d356d3b0a5dfee4.jpg",
+    "static/media/cleaning-crew.jpg": "/static/media/cleaning-crew.ebcf4d715b61abfe7e79.jpg",
+    "static/media/PlayfairDisplay-VariableFont_wght.ttf": "/static/media/PlayfairDisplay-VariableFont_wght.3f7c141215e6d22d0f1e.ttf",
+    "static/media/logo-no-background-title-only.png": "/static/media/logo-no-background-title-only.2d3c359fb90a85ab179f.png",
+    "static/media/logo-white.png": "/static/media/logo-white.84c6ee7e63fe070a90d1.png",
+    "index.html": "/index.html",
+    "main.052b295c.css.map": "/static/css/main.052b295c.css.map",
+    "main.5eae01b5.js.map": "/static/js/main.5eae01b5.js.map"
   },
   "entrypoints": [
-    "static/css/main.39803d91.css",
-    "static/js/main.cf5976b6.js"
+    "static/css/main.052b295c.css",
+    "static/js/main.5eae01b5.js"
   ]
 }
